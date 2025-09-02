@@ -43,7 +43,7 @@ export const mockCampaigns: Campaign[] = [
     story: 'Sarah is a bright 8-year-old who loves to paint and play with her friends. Recently diagnosed with Acute Lymphoblastic Leukemia, she needs immediate chemotherapy treatment. Her family has already spent their savings on initial treatments and urgently needs support for the ongoing medical expenses. The doctors are optimistic about her recovery with proper treatment, but the cost is overwhelming for her middle-class family. Sarah\'s parents work day and night, but medical bills are mounting faster than they can manage. Your support can help give Sarah the fighting chance she deserves.',
     targetAmount: 500000,
     raisedAmount: 245000,
-    image: 'https://images.pexels.com/photos/1416530/pexels-photo-1416530.jpeg',
+    image: 'https://th.bing.com/th/id/OIP.nMw4zg8EbJvQYKli-WXbzQHaED?w=265&h=180&c=7&r=0&o=7&pid=1.7&rm=3',
     documents: ['medical-report-1.pdf', 'doctor-prescription.pdf', 'hospital-estimate.pdf'],
     updates: [
       {
@@ -71,7 +71,7 @@ export const mockCampaigns: Campaign[] = [
   },
   {
     id: '2',
-    title: 'Heart Surgery for Amit',
+    title: 'Heart Surgery for Amit Kumar',
     patientName: 'Amit Patel',
     age: 45,
     condition: 'Coronary Artery Disease',
@@ -79,7 +79,7 @@ export const mockCampaigns: Campaign[] = [
     story: 'Amit is a hardworking father of two who recently suffered a major heart attack while working late at his office. He needs urgent bypass surgery, but his insurance doesn\'t cover the full cost. His family is struggling to arrange funds for this life-saving procedure. Amit has been the sole breadwinner for his family, supporting his elderly parents and two young children. The sudden medical emergency has left the family in financial distress. The doctors have advised immediate surgery to prevent further complications. Every day of delay increases the risk to Amit\'s life.',
     targetAmount: 750000,
     raisedAmount: 320000,
-    image: 'https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg',
+    image: 'https://scx2.b-cdn.net/gfx/news/2021/new-protocol-aims-for.jpg',
     documents: ['cardiac-report.pdf', 'surgery-estimate.pdf', 'insurance-documents.pdf'],
     updates: [
       {
@@ -87,6 +87,13 @@ export const mockCampaigns: Campaign[] = [
         title: 'Pre-surgery Tests Completed',
         content: 'All pre-operative tests have been completed successfully. Surgery has been scheduled for next week. Amit is in stable condition and ready for the procedure.',
         date: '2024-01-20'
+      },
+
+      {
+        id: '2',
+        title: 'final-surgery Completed',
+        content: 'All pre-operative tests have been completed successfully. Surgery has been scheduled for next week. Amit is in stable condition and ready for the procedure.',
+        date: '2025-08-10'
       }
     ],
     contributors: [
@@ -136,7 +143,7 @@ export const mockCampaigns: Campaign[] = [
     story: 'Ravi is a young software engineer who has been battling chronic kidney disease for the past 3 years. His condition has deteriorated rapidly, and he now needs an urgent kidney transplant to survive. His brother has volunteered as a living donor, but the family needs help with the extensive surgical costs. Ravi has been on dialysis three times a week, which has severely impacted his quality of life and ability to work. The transplant offers him a chance to return to normal life and continue his career. The family has exhausted their savings on dialysis and medication costs.',
     targetAmount: 800000,
     raisedAmount: 425000,
-    image: 'https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg',
+    image: 'https://th.bing.com/th/id/OIP.6Cv0N6fthgmq9E-wp4w5OgHaEH?w=280&h=180&c=7&r=0&o=7&pid=1.7&rm=3',
     documents: ['kidney-function-test.pdf', 'transplant-evaluation.pdf', 'donor-compatibility.pdf'],
     updates: [
       {
@@ -218,6 +225,6 @@ export const mockCampaigns: Campaign[] = [
 
 export const statistics = {
   fundraisersCreated: 12847,
-  livesSaved: 8543,
-  totalRaised: 45623789
+  livesSaved: 8548,
+  totalRaised: 56323789
 };

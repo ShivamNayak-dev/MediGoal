@@ -21,11 +21,11 @@ const Navbar = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
             <Heart className="h-8 w-8 text-[#0077B6]" />
-            <span className="text-xl font-bold text-[#333333]">MedCare</span>
+            <span className="text-xl font-bold text-[#333333]">MediGoal</span>
           </Link>
 
           {/* Search Bar */}
-          <div className="flex-1 max-w-lg mx-8">
+          <div className="flex-2 max-w-lg mx-8">
             <form onSubmit={handleSearch} className="relative">
               <input
                 type="text"
@@ -42,7 +42,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-6">
             <Link 
               to="/browse" 
-              className="text-[#333333] hover:text-[#0077B6] transition-colors duration-200"
+              className="text-[#333333] hover:text-[#0077B6] transition-colors duration-100"
             >
               Browse Fundraisers
             </Link>
@@ -98,6 +98,11 @@ const Navbar = () => {
               >
                 Sign Up
               </Link>
+
+              <span className="text-gray-300">|</span>
+  <Link to="/admin-login" className="text-[#0077B6] hover:underline">
+    Admin
+  </Link>
             </div>
           </div>
         </div>
